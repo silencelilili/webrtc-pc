@@ -1,0 +1,16 @@
+@import 'theme.scss';
+/* 改变主题色变量 */
+$--color-primary: $theme-color !default;
+
+div.ivu-drawer-body{
+    padding: 16px 0;
+}
+.msgbox{
+    min-width: 300px !important;
+    top: 30px !important;
+    //background-color: #30313385 !important;
+}
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";

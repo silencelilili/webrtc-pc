@@ -1,0 +1,192 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  /* font-size: 100%; */
+  vertical-align: baseline;
+  background: transparent;
+  list-style: none;
+  font-family: '微软雅黑';
+  font-weight: normal;
+}
+.pull-left{
+  float: left;
+}
+.pull-right{
+  float: right;
+}
+.clear-both{
+  clear: both;
+}
+.green{
+  color: #08a908;
+}
+.red{
+  color: red;
+}
+.gray {
+  color: gray;
+}
+/*圆角样式*/
+.radius20 {
+  border-radius: 20px !important;
+}
+
+/* 分割线 */
+.line {
+  border-bottom: 1px solid #ddd;
+  margin: 5px 0;
+}
+
+/*3px圆角的灰色边框线*/
+.border3 {
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  padding: 10px;
+}
+/*页面标题*/
+.page-header {
+  font-size: 18px;
+  border-left: 2px solid #07a2e8;
+  padding-left: 8px;
+  margin: 15px auto;
+}
+/* 左侧sidebar */
+.sidebar-left{
+  margin-left: 1rem;
+}
+.sidebar-left span{
+  margin: 0 0.1rem;
+}
+
+/* 自定义$message 的样式 */
+.messagebox{
+  background-color: rgba(0, 0, 0, .5) !important;
+  color: #f2f2f2;
+  border: 1px solid #e0e0e0 !important;
+  min-width: 200px !important;
+}
+div.notificabox{
+  /* min-height: 80px; */
+  padding: 5px !important;
+  background: rgba(0, 0, 0, .5);
+  border: none;
+  box-shadow: 0 0 5px #f2f2f2;
+}
+div.notificabox .el-notification__title,
+div.notificabox .el-notification__content{
+  color: #fff;
+}
+/* 水平镜像翻转 */
+.mirrorRotateLevel{
+  -moz-transform:scaleX(-1);
+  -webkit-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+  /*兼容IE*/
+  filter:FlipH;
+}
+/* 垂直镜像翻转 */
+.mirrorRotateVertical {        
+  -moz-transform:scaleY(-1);
+  -webkit-transform:scaleY(-1);
+  -o-transform:scaleY(-1);
+  transform:scaleY(-1);
+  /*兼容IE*/
+  filter:FlipV;
+}
+
+.spinner{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: spin 1s infinite linear;
+  -moz-animation: spin 1s infinite linear;
+  animation: spin infinite linear 1s;
+}
+
+@-moz-keyframes spin {
+  from {
+      -moz-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  to {
+      -moz-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
+
+.white-bg {
+  background: #fbfbfb;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 5px #ddd;
+}
+.text-right{
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+/*
+ *  表格样式 定义
+*/
+.table-list {
+  margin: 20px 0;
+}
+.table{
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+table.table > tbody > tr > td,
+table.table > thead > tr > th {
+  text-align: center;
+  vertical-align: middle;
+  /* border-top: 1px solid #f1eeee; */
+  border-bottom: none;
+  line-height: 36px;
+  /* white-space: nowrap; */
+}
+
+table.table > thead > tr {
+  background-color: #F0F2F4;
+}
+
+table.table > tbody > tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+table.table > tbody > tr:nth-child(even) {
+  background-color: rgba(0, 160, 233, 0.05);
+}
+
+.no-data p{
+  color: #00A1E8;
+  font-size: 16px;
+  margin:10px 0;
+}

@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?j9cvrn');
+  src:  url('fonts/icomoon.eot?j9cvrn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?j9cvrn') format('truetype'),
+    url('fonts/icomoon.woff?j9cvrn') format('woff'),
+    url('fonts/icomoon.svg?j9cvrn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-conference-desk:before {
+  content: "\e900";
+}
+.icon-share-files:before {
+  content: "\e901";
+}
+.icon-share-screen:before {
+  content: "\e902";
+}
+.icon-share-stop:before {
+  content: "\e903";
+}
+.icon-share-popout:before {
+  content: "\e904";
+}
+.icon-conference-time:before {
+  content: "\e905";
+}
+.icon-tool-whiteboard:before {
+  content: "\e906";
+}
+.icon-tool-line:before {
+  content: "\e907";
+}
+.icon-tool-triangle:before {
+  content: "\e908";
+}
+.icon-tool-rect:before {
+  content: "\e909";
+}
+.icon-conference-add:before {
+  content: "\e90a";
+}
+.icon-arrow-left:before {
+  content: "\e90b";
+}
+.icon-arrow-right:before {
+  content: "\e90c";
+}
+.icon-arrow-up:before {
+  content: "\e90d";
+}
+.icon-arrow-down:before {
+  content: "\e90e";
+}
+.icon-mdi-volume-down:before {
+  content: "\e90f";
+}
+.icon-tool-format:before {
+  content: "\e910";
+}
+.icon-tool-select:before {
+  content: "\e911";
+}
+.icon-tool-draw:before {
+  content: "\e912";
+}
+.icon-tool-annotate:before {
+  content: "\e913";
+}
+.icon-tool-save:before {
+  content: "\e914";
+}
+.icon-tool-delete:before {
+  content: "\e915";
+}
+.icon-tool-redo:before {
+  content: "\e916";
+}
+.icon-tool-undo:before {
+  content: "\e917";
+}
+.icon-tool-rubber:before {
+  content: "\e918";
+}
+.icon-tool-text:before {
+  content: "\e919";
+}
+.icon-tool-laser-pen:before {
+  content: "\e91a";
+}
+.icon-mdi-moff:before {
+  content: "\e91b";
+}
+.icon-mdi-videocam-off:before {
+  content: "\e91c";
+}
+.icon-conference-unCollected:before {
+  content: "\e91d";
+}
+.icon-conference-collected:before {
+  content: "\e91e";
+}
+.icon-mdi-fullscreen-exit:before {
+  content: "\e91f";
+}
+.icon-mdi-fullscreen:before {
+  content: "\e920";
+}
+.icon-mdi-picture-as-pdf:before {
+  content: "\e921";
+}
+.icon-mdi-volume-up:before {
+  content: "\e922";
+}
+.icon-mdi-videocam:before {
+  content: "\e923";
+}
+.icon-mdi-mic:before {
+  content: "\e924";
+}
+.icon-conference-more:before {
+  content: "\e925";
+}
+.icon-conference-hand-up:before {
+  content: "\e926";
+}
+.icon-mdi-setup-video:before {
+  content: "\e927";
+}
+.icon-conference-vote:before {
+  content: "\e928";
+}
+.icon-conference-reduce:before {
+  content: "\e929";
+}
+.icon-conference-local:before {
+  content: "\e92a";
+}
+.icon-conference-add-particiopant:before {
+  content: "\e92b";
+}
+.icon-mdi-call-end:before {
+  content: "\e92c";
+}
+.icon-conference-network:before {
+  content: "\e92d";
+}
+.icon-meeting-tpl:before {
+  content: "\e92e";
+}
+.icon-apply-conference:before {
+  content: "\e92f";
+}
+.icon-video-ent:before {
+  content: "\e930";
+}
+.icon-video:before {
+  content: "\e931";
+}
+.icon-home-service:before {
+  content: "\e932";
+}
+.icon-home-matter:before {
+  content: "\e933";
+}
+.icon-home-account:before {
+  content: "\e934";
+}
+.icon-more:before {
+  content: "\e935";
+}
+.icon-user-phone:before {
+  content: "\e936";
+}
+.icon-user-sip-pwd:before {
+  content: "\e937";
+}
+.icon-user-email:before {
+  content: "\e938";
+}
+.icon-user-job:before {
+  content: "\e939";
+}
+.icon-user-personal-deptwo:before {
+  content: "\e93a";
+}
+.icon-user-personal-depone:before {
+  content: "\e93b";
+}
+.icon-user-personal-depthree:before {
+  content: "\e93c";
+}
+.icon-user-number:before {
+  content: "\e93d";
+}
+.icon-user-sip:before {
+  content: "\e93e";
+}
+.icon-input-search:before {
+  content: "\e93f";
+}
+.icon-message:before {
+  content: "\e940";
+}
+.icon-create-ent:before {
+  content: "\e941";
+}
+.icon-schedule:before {
+  content: "\e942";
+}
+.icon-live:before {
+  content: "\e943";
+}
+.icon-join:before {
+  content: "\e944";
+}
+.icon-meeting-management:before {
+  content: "\e945";
+}
+.icon-logout:before {
+  content: "\e946";
+}
+.icon-enter-setting:before {
+  content: "\e947";
+}
+.icon-change-admin:before {
+  content: "\e948";
+}
+.icon-personal-consumption:before {
+  content: "\e949";
+}
+.icon-personal-center:before {
+  content: "\e94a";
+}
+.icon-customize:before {
+  content: "\e94b";
+}
+.icon-operation-log:before {
+  content: "\e94c";
+}
+.icon-order-management:before {
+  content: "\e94d";
+}
+.icon-contacts-ent:before {
+  content: "\e94e";
+}
+.icon-contacts-user:before {
+  content: "\e94f";
+}
+.icon-consumption-detail:before {
+  content: "\e950";
+}
+.icon-consumption-all:before {
+  content: "\e951";
+}
+.icon-room-management:before {
+  content: "\e952";
+}
+.icon-room:before {
+  content: "\e953";
+}
+.icon-history-management:before {
+  content: "\e954";
+}
+.icon-history:before {
+  content: "\e955";
+}
+.icon-book:before {
+  content: "\e956";
+}
+.icon-schedule-management:before {
+  content: "\e957";
+}
+.icon-conference-management:before {
+  content: "\e958";
+}

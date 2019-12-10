@@ -1,0 +1,14 @@
+{
+  "name": "svoc",
+  "target": "tar.gz",
+  "dest": "build/installers/",
+  "icon": "build/icons/256x256.png",
+  "license": "MIT",
+  "categories": [
+    "Utility" 
+  ],
+  "lintianOverrides": [
+    "changelog-file-missing-in-native-package" 
+  ]
+ }
+ 
