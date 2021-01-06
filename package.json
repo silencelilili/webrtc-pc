@@ -88,7 +88,7 @@
     ]
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "core-js": "^2.6.5",
     "electron-updater": "^4.1.2",
     "element-ui": "2.7.2",
