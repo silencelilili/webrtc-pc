@@ -141,7 +141,7 @@
     "karma-spec-reporter": "^0.0.32",
     "karma-webpack": "^3.0.0",
     "less-loader": "^5.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "mini-css-extract-plugin": "0.4.0",
     "mocha": "^5.2.0",
     "multispinner": "^0.2.1",
